@@ -1,0 +1,40 @@
+.logo {
+  height: 1080px;
+  width: 1080px;
+  background: linear-gradient(  #21618c ,#34495e);
+  margin: 50px;
+  border-radius: 50px;
+}
+
+.logo h1 {
+  text-align: center;
+  color: white;
+  font-size: 450px;
+  line-height: 1080px;
+  font-weight: bold;
+}
+
+.logofull {
+  height: 1080px;
+  width: 1920px;
+  background: linear-gradient(  #21618c ,#34495e);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border h1 {
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  line-height: 1040px;
+}
+
+.border{
+  height: 1000px;
+  width: 1840px;
+  border: 20px solid white;
+
+}
