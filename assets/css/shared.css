@@ -28,11 +28,15 @@ body {
     padding: 0;
 }
 
-#websitebody1 {
-  width: 98.7vw;
+.websitebody {
+  width: 100vw;
   height: 100vh;
 }
 
 
 @media screen and (min-width: 1024px) {
+  .websitebody {
+    width: 99.9vw;
+    height: 100vh;
+  }
 }
