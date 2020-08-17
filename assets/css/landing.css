@@ -2,18 +2,23 @@
    body
    ======================================== */
 
-.background {
-  z-index: -1;
+.websitebody {
+  width: 100vw;
+  height: 100vh;
 }
 
-.foregroud {
-  z-index: 1;
+@media screen and (min-width: 1024px) {
+  .websitebody {
+    width: 99.9vw;
+    height: 100vh;
+  }
 }
 
 #websitebody1 {
   position: absolute;
   left: 0px;
   top: 0px;
+  z-index: -1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,6 +60,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,16 +68,16 @@
 }
 
 #title1 {
-    border: 2px solid red;
-    height: 15vh;
+  height: 8vh;
 }
 
 #title1 h1 {
   color: #ffffff;
-  font-size: 12vw;
-  line-height: 15vh;
-  text-overflow: scale;
+  font-size: 10vw;
+  line-height: 8vh;
+  font-weight: 600;
 }
+
 
 @media screen and (min-width: 1024px) {
   #title1 h1 {
@@ -82,8 +88,101 @@
   }
 }
 
+#bodypart1 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-#body1 {
-    height: 85vh;
-    border: 2px solid yellow;
+#textpart1 {
+  width: 90vw;
+  height: 71vh;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000025;
+  padding: 10px;
+}
+
+#ctapart1 {
+  width: 90vw;
+  height: 19vh;
+  border-top: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000020;
+}
+
+@media screen and (min-width: 1024px) {
+  #bodypart1 {
+    flex-direction: row;
+  }
+
+  #textpart1 {
+    width: 55vw;
+    height: 80vh;
+    border-bottom: unset;
+    border-right: 1px solid #ffffff;
+    padding: 50px;
+  }
+
+  #ctapart1 {
+    width: 35vw;
+    height: 80vh;
+    border-top: unset;
+    border-left: 1px solid #ffffff;
+  }
+}
+
+#textcontent1 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#textcontent1 h2 {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+#textcontent1 li {
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+#just1 {
+  text-align: justify;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  #textcontent1 h2 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  #textcontent1 li {
+    padding: 10px 30px;
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #textcontent1 h2 {
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+
+  #textcontent1 li {
+    padding: 10px 30px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
 }
