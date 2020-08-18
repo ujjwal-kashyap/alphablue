@@ -129,12 +129,16 @@
 
 @media screen and (min-width: 1024px) {
   #bodypart1 {
+    height: 85vh;
     flex-direction: row;
+    max-width: 1500px;
+    max-height: 1000px;
   }
 
   #textpart1 {
     width: 55vw;
     height: 80vh;
+    max-height: 1000px;
     /*border-bottom: unset;
     border-right: 1px solid #ffffff;*/
     margin-bottom: unset;
@@ -146,6 +150,7 @@
   #ctapart1 {
     width: 35vw;
     height: 80vh;
+    max-height: 1000px;
     /*border-top: unset;
     border-left: 1px solid #ffffff;*/
     margin-top: unset;
