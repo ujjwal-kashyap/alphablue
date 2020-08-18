@@ -68,23 +68,24 @@
 }
 
 #title1 {
-  height: 8vh;
+  height: 10vh;
 }
 
 #title1 h1 {
-  color: #ffffff;
-  font-size: 10vw;
-  line-height: 8vh;
-  font-weight: 600;
+  color: #001429;
+  font-size: 8vw;
+  line-height: 10vh;
+  font-weight: 500;
 }
 
 
 @media screen and (min-width: 1024px) {
   #title1 h1 {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-stroke: 2px #001429;
     font-size: 12vh;
     line-height: 15vh;
+    font-weight: unset;
   }
 }
 
@@ -98,25 +99,30 @@
 
 #textpart1 {
   width: 90vw;
-  height: 71vh;
-  border-bottom: 1px solid #ffffff;
+  height: 69vh;
+  /*border-bottom: 1px solid #ffffff;*/
+  margin-bottom: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #00000025;
+  background-color: #ffffff80;
   padding: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #ctapart1 {
   width: 90vw;
   height: 19vh;
-  border-top: 1px solid #ffffff;
+  /*border-top: 1px solid #ffffff;*/
+  margin-top: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #00000020;
+  background-color: #ffffff80;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -127,16 +133,19 @@
   #textpart1 {
     width: 55vw;
     height: 80vh;
-    border-bottom: unset;
-    border-right: 1px solid #ffffff;
+    /*border-bottom: unset;
+    border-right: 1px solid #ffffff;*/
+    margin-bottom: unset;
+    margin-right: 2px;
     padding: 50px;
+    border-radius: 10px 0px 0px 10px;
   }
 
   #ctapart1 {
     width: 35vw;
     height: 80vh;
-    border-top: unset;
-    border-left: 1px solid #ffffff;
+    /*border-top: unset;
+    border-left: 1px solid #ffffff;*/
   }
 }
 
@@ -147,18 +156,33 @@
 
 #textcontent1 h2 {
   text-align: center;
-  color: #ffffff;
+  color: #001429;
   padding-bottom: 10px;
 }
 
-#textcontent1 li {
-  color: #ffffff;
+#textcontent1 li, #ctacontent1 li {
+  color: #001429;
   padding: 5px 10px;
 }
 
-#just1 {
+.li-justify {
   text-align: justify;
-  list-style-type: none;
+}
+
+.li-center {
+  text-align: center;
+}
+
+.button {
+  border: 2px solid #001429;
+  border-radius: 10px;
+  padding: 4px 20px;
+  margin: 10px 50px;
+  background-color: #ffffff;
+}
+
+.button:hover {
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {

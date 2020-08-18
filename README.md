@@ -1,2 +1,2 @@
-# alphablueco.github.io
+# alphablueco
 web presence
