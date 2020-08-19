@@ -178,12 +178,12 @@
   }
 
   #textpart1 {
-    animation: move-textpart1 4s ease-in-out none 0s 1 normal;
+    animation: move-textpart1 3.5s ease-in-out none 0s 1 normal;
   }
 
   @keyframes move-textpart1 {
     0%    { transform: translateX(-50px); opacity: 0;}
-    70%    { transform: translateX(-50px); opacity: 0;}
+    80%    { transform: translateX(-50px); opacity: 0;}
     100%  { transform: translateX(0px); opacity: 1;}
   }
 
@@ -200,12 +200,12 @@
   }
 
   #ctapart1 {
-    animation: move-ctapart1 4s ease-in-out none 0s 1 normal;
+    animation: move-ctapart1 3.5s ease-in-out none 0s 1 normal;
   }
 
   @keyframes move-ctapart1 {
     0%    { transform: translateX(50px); opacity: 0;}
-    70%    { transform: translateX(50px); opacity: 0;}
+    80%    { transform: translateX(50px); opacity: 0;}
     100%  { transform: translateX(0px); opacity: 1;}
   }
 }
