@@ -263,6 +263,7 @@
   vertical-align: middle;
   border: none;
   border-bottom: 1px solid black;
+  background-color: transparent;
 }
 
 .input:focus {
@@ -271,7 +272,7 @@
 
 
 @media screen and (min-width: 768px) {
-  .textcontent h2 {
+  .textcontent h2, .ctacontent h2 {
     font-size: 2em;
     line-height: 2em;
   }
@@ -284,7 +285,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .textcontent h2 {
+  .textcontent h2, .ctacontent h2 {
     font-size: 1.5em;
     line-height: 2em;
   }
@@ -296,7 +297,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .textcontent h2 {
+  .textcontent h2, .ctacontent h2 {
     font-size: 2em;
     line-height: 2.2em;
   }
@@ -309,7 +310,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .textcontent h2 {
+  .textcontent h2, .ctacontent h2 {
     font-size: 2.2em;
     line-height: 2.5em;
   }
