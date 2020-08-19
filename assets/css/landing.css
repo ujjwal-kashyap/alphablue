@@ -182,9 +182,9 @@
   }
 
   @keyframes move-textpart1 {
-    0%    { transform: translateX(-100vw);}
-    50%    { transform: translateX(-100vw);}
-    100%  { transform: translateX(0px);}
+    0%    { transform: translateX(-50px); opacity: 0;}
+    70%    { transform: translateX(-50px); opacity: 0;}
+    100%  { transform: translateX(0px); opacity: 1;}
   }
 
   .ctapart {
@@ -204,11 +204,10 @@
   }
 
   @keyframes move-ctapart1 {
-    0%    { transform: translateX(100vw);}
-    50%    { transform: translateX(100vw);}
-    100%  { transform: translateX(0px);}
+    0%    { transform: translateX(50px); opacity: 0;}
+    70%    { transform: translateX(50px); opacity: 0;}
+    100%  { transform: translateX(0px); opacity: 1;}
   }
-}
 
 .textcontent {
   overflow-x: hidden;
