@@ -114,8 +114,8 @@
 }
 
 @keyframes move-bodypart {
-  0%    { transform: translateY(100px);}
-  100%  { transform: translateY(0px);}
+  0%    { transform: translateY(100px);  opacity: 0;}
+  100%  { transform: translateY(0px);  opacity: 1;}
 }
 
 .textpart {
@@ -208,6 +208,7 @@
     70%    { transform: translateX(50px); opacity: 0;}
     100%  { transform: translateX(0px); opacity: 1;}
   }
+}
 
 .textcontent {
   overflow-x: hidden;
